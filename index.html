@@ -15,6 +15,9 @@
         text-align: center;
         font-family: 'Rampart One', cursive;
       }
+      .font_style{
+        font-family: 'Rampart One', cursive;
+      }
       h2{
         color: dimgray;
       }
@@ -42,8 +45,46 @@
         margin-right: auto;
         width: 50%;
       }
+
       a{
         color: dimgray;
+      }
+      hr{
+        height: 1px;
+        background-color: lightseagreen;
+        border: none;
+      }
+      .styled-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      }
+      .styled-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+      }
+      .styled-table th,
+      .styled-table td {
+        padding: 12px 15px;
+      }
+      .styled-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+      }
+
+      .styled-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+
+      .styled-table tbody tr:last-of-type {
+        border-bottom: 2px solid #009879;
+      }
+      .styled-table tbody tr.active-row {
+        font-weight: bold;
+        color: #009879;
       }
   </style>
   <meta charset="UTF-8">
@@ -51,14 +92,14 @@
 </head>
 
 <body>
-  <h1 class="font-family: 'Rampart One', cursive">Shan Jiang</h1>
+  <h1 >Shan Jiang</h1>
   <hr>
   
   <img class="center" src="https://images.unsplash.com/photo-1565717989187-2c914e866ff3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80", alt="city">
-  <br>
-  <h2>About me</h2>
+  <hr>
+  <h2 class="font_style">About me</h2>
   <div>
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <p>"  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
   </div>
   <div>
     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
@@ -66,16 +107,18 @@
 
 <div class='boxhead'>
   <ul>
-    <h4>My Social Media</h4>
+    <h4 class="font_style">My Social Media</h4>
     <a href="https://www.facebook.com/" class="otherPage"><li>facebook</li></a>
     <a href="instagram.com" class="otherPage"><li>instagram</li></a>
   </ul>
 </div>
   
-    <table border="1">
+    <table border="1" class="styled-table">
       <thead>
         <tr>
-          <th colspan="3">Favorites</th>
+          <center>
+            <th colspan="3" style="text-align:center">Favorites</th>
+          </center>
         </tr>
         <tr>
           <th>Songs</th>
@@ -84,7 +127,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="active-row">
           <td>Ladder</td>
           <td>XMachina</td>
           <td>Sherlock Holmes</td>
