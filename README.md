@@ -2,6 +2,4 @@ Data analyst with a B.S. in mathematics and computer science and a M.S. in mathe
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -**Linkedin**: www.linkedin.com/in/shan-jiang-3a221313a                                                                                                                             
-
--**Email**: frankjiang1208@gmail.com                                                                                                                                                 
--**Personal** Website: https://shanjiang1208.netlify.app
+-**Email**: frankjiang1208@gmail.com                                                                                                                                                -**Personal** Website: https://shanjiang1208.netlify.app
