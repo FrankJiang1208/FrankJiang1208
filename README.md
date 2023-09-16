@@ -6,4 +6,5 @@
 **Linkedin**: [Link Here](https://www.linkedin.com/in/shan-jiang-3a221313a)
 
 **Email**: frankjiang1208@gmail.com
-      
+
+**AWS Certificate**: [Link Here]([https://www.linkedin.com/in/shan-jiang-3a221313a](https://www.credly.com/badges/b0df5af2-dcb2-4afa-9308-2fe18c1c99da/public_url)https://www.credly.com/badges/b0df5af2-dcb2-4afa-9308-2fe18c1c99da/public_url)
